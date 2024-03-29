@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+}
+.cards
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    gap: 8em;
+}
+.row img{
+    border-radius: 30%;
+}
+.row{
+    margin: 30px auto auto 70px
+}
+header{
+    width: 100%;
+    position: fixed;
+   
+    background-image: url(images/image4.png);
+    z-index: 200;
+}
+
+
+@media (max-width: 991px) {
+    .navbar-nav {
+      padding-top: 10px;
+    }
+  }
+  
+
+  @media (max-width: 767px) {
+    .hero {
+      padding: 60px 0;
+    }
+  }
+  
+ 
+  @media (max-width: 767px) {
+    .card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
